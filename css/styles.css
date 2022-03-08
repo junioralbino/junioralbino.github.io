@@ -35,7 +35,36 @@
     padding: 30px 12px;
     border: 5px solid var(--bio-border-color);
 }
-#bio-container img {
-    width: 150px;
-    height: 150px;
+#about-container {
+    flex: 1 1 80%;
+    min-height: 100vh;
+    background-color: var(--bio-bg-color);
+    padding: 50px;
+
+}
+
+/* bio container */
+#bio-container h2{
+    margin-bottom: 25px;
+}
+#bio-container p{
+    margin-bottom: 20px;
+}
+#bio-container #welcome-text {
+    font-weight: bold;
+}
+
+#bio-image {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+#social-container {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
