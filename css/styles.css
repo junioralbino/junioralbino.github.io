@@ -203,5 +203,13 @@
         max-width: 100%;
         line-height: 26px;
     }
-
+    .skills-box{
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    .skills-box i {
+        font-size: 60px;
+    }
 }
